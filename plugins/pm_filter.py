@@ -820,14 +820,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("👑BOT OWNER👑", url="https://t.me/MatRixBotz_TG"), 
-            InlineKeyboardButton("🙋‍♂️SUPPORT GROUP⁉️", url="https://t.me/MatRixBotzTGsupport")
-            ],[      
+            InlineKeyboardButton("👑BOT OWNER👑", url="https://t.me/BEATVERSION"), 
+            InlineKeyboardButton("🎬MOVIE GROUP🎬", url="https://t.me/+nGU7T2xI8ag2MzY1"),
+            ],[   
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about"), 
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/MatRixBotzTG")
+            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/+xTradtnMez4yZWQ9")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
