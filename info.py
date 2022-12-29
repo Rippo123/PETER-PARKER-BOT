@@ -54,7 +54,7 @@ FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '♦️ 𝗥𝗘𝗔𝗗 𝗧𝗛
 
 <b>ജോയിൻ ചെയ്ത ശേഷം "  𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻  " എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ അയച്ചു തരുന്നതാണ്...</b>
 
-<b>JOIN UPDATES CHANNEL AND THEN CLICK TRY AGAIN BUTTON TO GET MOVIE FILE')</b>
+<b>JOIN UPDATES CHANNEL AND THEN CLICK TRY AGAIN BUTTON TO GET MOVIE FILE</b>')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}")
