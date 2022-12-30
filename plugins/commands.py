@@ -62,8 +62,6 @@ async def start(client, message):
         )
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
-        try:
-            invite_link = url="https://t.me/+ZypohVqxcboxYTI1"
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
