@@ -64,7 +64,6 @@ async def start(client, message):
     if AUTH_CHANNEL and not await is_subscribed(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
-        btn = [
             [
                 InlineKeyboardButton(
                     "🤖 Join Updates Channel", url="https://t.me/+ZypohVqxcboxYTI1"
